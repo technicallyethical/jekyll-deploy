@@ -1,0 +1,8 @@
+name: Jekyll 4 automation
+description: 'Builds and deploys a Jekyll 4 site to the gh-pages branch of the same repository'
+branding:
+  icon: 'upload-cloud'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
